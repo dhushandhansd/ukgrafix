@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/ukgrafix/static/css/main.1a88c260.chunk.css",
+    "main.js": "/ukgrafix/static/js/main.7b6a03cd.chunk.js",
+    "main.js.map": "/ukgrafix/static/js/main.7b6a03cd.chunk.js.map",
+    "runtime-main.js": "/ukgrafix/static/js/runtime-main.22eec8ef.js",
+    "runtime-main.js.map": "/ukgrafix/static/js/runtime-main.22eec8ef.js.map",
+    "static/js/2.d9429572.chunk.js": "/ukgrafix/static/js/2.d9429572.chunk.js",
+    "static/js/2.d9429572.chunk.js.map": "/ukgrafix/static/js/2.d9429572.chunk.js.map",
+    "index.html": "/ukgrafix/index.html",
+    "precache-manifest.3a06b3589f7e75606ed5d8bffa8ea81f.js": "/ukgrafix/precache-manifest.3a06b3589f7e75606ed5d8bffa8ea81f.js",
+    "service-worker.js": "/ukgrafix/service-worker.js",
+    "static/css/main.1a88c260.chunk.css.map": "/ukgrafix/static/css/main.1a88c260.chunk.css.map",
+    "static/js/2.d9429572.chunk.js.LICENSE.txt": "/ukgrafix/static/js/2.d9429572.chunk.js.LICENSE.txt",
+    "static/media/balajee.png": "/ukgrafix/static/media/balajee.fe035667.png",
+    "static/media/contactusimg.png": "/ukgrafix/static/media/contactusimg.65bbc5c1.png",
+    "static/media/developerimg1.png": "/ukgrafix/static/media/developerimg1.ecc0c7dc.png",
+    "static/media/homepagebgimg.png": "/ukgrafix/static/media/homepagebgimg.7f265f4c.png",
+    "static/media/portfoliobgimg.png": "/ukgrafix/static/media/portfoliobgimg.b1ad2ee6.png",
+    "static/media/projecctweb2.png": "/ukgrafix/static/media/projecctweb2.08181e0a.png",
+    "static/media/projectmob1.png": "/ukgrafix/static/media/projectmob1.3055044b.png",
+    "static/media/projectmob2.png": "/ukgrafix/static/media/projectmob2.21293aa7.png",
+    "static/media/projectmob3.png": "/ukgrafix/static/media/projectmob3.8e81587c.png",
+    "static/media/projectmob6.png": "/ukgrafix/static/media/projectmob6.a82d2234.png",
+    "static/media/projectmob7.png": "/ukgrafix/static/media/projectmob7.24472efe.png",
+    "static/media/projectweb1.png": "/ukgrafix/static/media/projectweb1.6f0d2793.png",
+    "static/media/projectweb3.png": "/ukgrafix/static/media/projectweb3.67b147d7.png",
+    "static/media/projectweb4.png": "/ukgrafix/static/media/projectweb4.8e0c0426.png",
+    "static/media/sabari.png": "/ukgrafix/static/media/sabari.0f0c02b2.png",
+    "static/media/shree.png": "/ukgrafix/static/media/shree.58b9be22.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22eec8ef.js",
+    "static/js/2.d9429572.chunk.js",
+    "static/css/main.1a88c260.chunk.css",
+    "static/js/main.7b6a03cd.chunk.js"
+  ]
+}
