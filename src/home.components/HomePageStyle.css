@@ -1,0 +1,1168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: linear-gradient(-45deg,#85D8CE,#085078);
+    color: white;
+}
+
+/*Nav Bar */
+
+.logo {
+    padding-left: 60px;
+    padding-top: 5px;
+}
+
+
+.black {
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 100vw;
+    height: 80px;
+}
+
+ul {
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+}
+ul li {
+    display: inline-block;
+    padding: 30px;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+
+ul li.active a {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 12px;
+    transition: 0.1s ease-in;
+}
+
+@media only screen and (max-width:768px) {
+    ul li {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .logo {
+        padding-left: 360px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .logo {
+        padding-left: 180px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .logo {
+        padding-left: 160px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .logo {
+        padding-left: 120px;
+    }
+}
+
+/*Left Bar */
+
+.title1 {
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    position: absolute;
+    display: flex;
+    top: 200px;
+    left: 80px;
+    text-shadow: -5px 5px #0000001e;
+}
+
+.highlight1 {
+    font-family: 'Segoe UI';
+    font-size: 55px;
+    position: absolute;
+    display: flex;
+    color: #85D8CE;
+    top: 178px;
+    left: 180px;
+    letter-spacing: 2px;
+    text-shadow: -5px 5px #0000001e;
+}
+
+
+.title2 {
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    position: absolute;
+    display: flex;
+    top: 200px;
+    left: 450px;
+    text-shadow: -5px 5px #0000001e;
+}
+
+
+.highlight2 {
+    font-family: 'Segoe UI';
+    font-size: 60px;
+    position: absolute;
+    display: flex;
+    color: #85D8CE;
+    top: 260px;
+    left: 100px;
+    letter-spacing: 2px;
+    text-shadow: -5px 5px #0000001e;
+}
+
+
+.title3 {
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    position: absolute;
+    display: flex;
+    top: 285px;
+    left: 400px;
+    text-shadow: -5px 5px #0000001e;
+}
+
+
+.title4 {
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    position: absolute;
+    display: flex;
+    top: 350px;
+    left: 80px;
+    text-shadow: -5px 5px #0000001e;
+}
+
+
+.title5 {
+    font-family: 'Segoe UI';
+    font-size: 27px;
+    position: absolute;
+    display: flex;
+    top: 440px;
+    left: 80px;
+    text-shadow: -5px 5px #0000001e;
+}
+
+
+.title6 {
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    position: absolute;
+    display: flex;
+    top: 490px;
+    left: 80px;
+    text-shadow: -5px 5px #0000001e;
+}
+
+.emailform {
+    width: 200px;
+    height: 40px;
+    border: none;
+    box-shadow: -5px 5px #0000001e;
+    position: absolute;
+    display: flex;
+    text-align:center;
+    top: 540px;
+    left: 80px;
+    color: #00000088;
+}
+
+.submitbutton {
+   color: white;
+   height: 40px;
+   width: 150px;
+   border: none;
+   font-size: 17px;
+   padding-left: 30px;
+   padding-top: 11px;
+   text-align: center;
+   text-decoration: none;
+   background-color: #085078;
+   font-weight: bold;
+   box-shadow: -5px 5px #0000001e;
+   position: absolute;
+   display: flex;
+   top: 540px;
+   left: 300px;
+}
+/*Right Bar*/
+
+.bgimg {
+    width: 50vw;
+    height: 60vh;
+    position: absolute;
+    background-size: cover;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 555px;
+}
+
+.pricingbutton {
+    color: #085078;
+    height: 40px;
+    width: 150px;
+    border: none;
+    font-size: 15px;
+    padding-top:12px;
+    padding-left:40px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #85D8CE;
+    font-weight: bolder;
+    box-shadow: -5px 5px #0000001e;
+    position: absolute;
+    display: flex;
+    top: 620px;
+    left: 650px;
+}
+
+.contactbutton {
+    color: #85D8CE;
+    height: 40px;
+    width: 150px;
+    border: none;
+    font-size: 15px;
+    padding-top:12px;
+    padding-left:25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #085078;
+    font-weight: bolder;
+    box-shadow: -5px 5px #0000001e;
+    position: absolute;
+    display: flex;
+    top: 620px;
+    left: 850px;
+}
+
+@media only screen and (min-width:1600px) {
+    .bgimg {
+        width: 40vw;
+        height: 50vh;
+        position: absolute;
+        background-size: cover;
+        display: flex;
+        padding-top: 100px;
+        padding-left: 700px;
+    }
+
+    
+    .pricingbutton {
+        color: #085078;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 15px;
+        padding-top:12px;
+        padding-left:40px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #85D8CE;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 660px;
+        left: 650px;
+    }
+
+    .contactbutton {
+        color: #85D8CE;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 15px;
+        padding-top:12px;
+        padding-left:25px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #085078;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 660px;
+        left: 850px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .bgimg {
+        width: 40vw;
+        height: 50vh;
+        position: absolute;
+        background-size: cover;
+        display: flex;
+        padding-top: 100px;
+        padding-left: 555px;
+    }
+
+    
+    .pricingbutton {
+        color: #085078;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 15px;
+        padding-top:12px;
+        padding-left:40px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #85D8CE;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 550px;
+        left: 610px;
+    }
+
+    .contactbutton {
+        color: #85D8CE;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 15px;
+        padding-top:12px;
+        padding-left:25px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #085078;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 550px;
+        left: 810px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .bgimg {
+        display: none;
+    }
+
+    .pricingbutton {
+        color: #085078;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 15px;
+        padding-top:12px;
+        padding-left:40px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #85D8CE;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 540px;
+        left: 20px;
+    }
+
+    .contactbutton {
+        color: #85D8CE;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 15px;
+        padding-top:12px;
+        padding-left:25px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #085078;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 540px;
+        left: 600px;
+    }
+}
+@media only screen and (max-width:425px) {
+    .bgimg {
+        display: none;
+    }
+
+    .pricingbutton {
+        color: #085078;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 15px;
+        padding-top:12px;
+        padding-left:40px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #85D8CE;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 560px;
+        left: 20px;
+    }
+
+    .contactbutton {
+        color: #85D8CE;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 15px;
+        padding-top:12px;
+        padding-left:25px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #085078;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 560px;
+        left: 260px;
+    }
+}
+@media only screen and (max-width:375px) {
+    .bgimg {
+        display: none;
+    }
+
+    .pricingbutton {
+        color: #085078;
+        height: 30px;
+        width: 100px;
+        border: none;
+        font-size: 12px;
+        padding-left: 30px;
+        padding-top:8px ;
+        text-align: center;
+        text-decoration: none;
+        background-color: #85D8CE;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 560px;
+        left: 60px;
+    }
+
+    .contactbutton {
+        color: #85D8CE;
+        height: 30px;
+        width: 100px;
+        border: none;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-top:8px ;
+        text-align: center;
+        text-decoration: none;
+        background-color: #085078;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 560px;
+        left: 220px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .bgimg {
+        display: none;
+    }
+
+    .pricingbutton {
+        color: #085078;
+        height: 30px;
+        width: 100px;
+        border: none;
+        font-size: 12px;
+        padding-left: 30px;
+        padding-top:8px ;
+        text-align: center;
+        text-decoration: none;
+        background-color: #85D8CE;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 560px;
+        left: 60px;
+    }
+
+    .contactbutton {
+        color: #85D8CE;
+        height: 30px;
+        width: 100px;
+        border: none;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-top:8px ;
+        text-align: center;
+        text-decoration: none;
+        background-color: #085078;
+        font-weight: bolder;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 560px;
+        left: 160px;
+    }
+}
+
+
+@media only screen and (min-width:1600px) {
+    
+    .title1 {
+        font-family: 'Segoe UI';
+        font-size: 55px;
+        position: absolute;
+        display: flex;
+        top: 200px;
+        left: 80px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .highlight1 {
+        font-family: 'Segoe UI';
+        font-size: 75px;
+        position: absolute;
+        display: flex;
+        color: #85D8CE;
+        top: 178px;
+        left: 220px;
+        letter-spacing: 2px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title2 {
+        font-family: 'Segoe UI';
+        font-size: 55px;
+        position: absolute;
+        display: flex;
+        top: 200px;
+        left: 570px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    
+    .highlight2 {
+        font-family: 'Segoe UI';
+        font-size: 80px;
+        position: absolute;
+        display: flex;
+        color: #85D8CE;
+        top: 280px;
+        left: 100px;
+        letter-spacing: 2px;
+        text-shadow: -5px 5px #0000001e;
+    }   
+
+
+    .title3 {
+        font-family: 'Segoe UI';
+        font-size: 55px;
+        position: absolute;
+        display: flex;
+        top: 305px;
+        left: 500px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    
+    .title4 {
+        font-family: 'Segoe UI';
+        font-size: 55px;
+        position: absolute;
+        display: flex;
+        top: 390px;
+        left: 80px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title5 {
+        font-family: 'Segoe UI';
+        font-size: 40px;
+        position: absolute;
+        display: flex;
+        top: 490px;
+        left: 80px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    
+    .title6 {
+        font-family: 'Segoe UI';
+        font-size: 25px;
+        position: absolute;
+        display: flex;
+        top: 580px;
+        left: 80px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .emailform {
+        width: 200px;
+        height: 40px;
+        border: none;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        text-align:center;
+        top: 630px;
+        left: 80px;
+        color: #00000088;
+    }
+
+    .submitbutton {
+        color: white;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 17px;
+        padding-left: 30px;
+        padding-top: 11px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #085078;
+        font-weight: bold;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 630px;
+        left: 300px;
+    }
+    
+    
+}
+
+@media only screen and (max-width:768px) {
+    
+    .title1 {
+        font-family: 'Segoe UI';
+        font-size: 35px;
+        position: absolute;
+        display: flex;
+        top: 200px;
+        left: 160px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .highlight1 {
+        font-family: 'Segoe UI';
+        font-size: 55px;
+        position: absolute;
+        display: flex;
+        color: #85D8CE;
+        top: 178px;
+        left: 260px;
+        letter-spacing: 2px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title2 {
+        font-family: 'Segoe UI';
+        font-size: 35px;
+        position: absolute;
+        display: flex;
+        top: 200px;
+        left: 530px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .highlight2 {
+        font-family: 'Segoe UI';
+        font-size: 60px;
+        position: absolute;
+        display: flex;
+        color: #85D8CE;
+        top: 260px;
+        left: 200px;
+        letter-spacing: 2px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title3 {
+        font-family: 'Segoe UI';
+        font-size: 35px;
+        position: absolute;
+        display: flex;
+        top: 285px;
+        left: 500px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title4 {
+        font-family: 'Segoe UI';
+        font-size: 35px;
+        position: absolute;
+        display: flex;
+        top: 350px;
+        left: 300px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title5 {
+        font-family: 'Segoe UI';
+        font-size: 27px;
+        position: absolute;
+        display: flex;
+        top: 440px;
+        left: 230px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title6 {
+        font-family: 'Segoe UI';
+        font-size: 15px;
+        position: absolute;
+        display: flex;
+        top: 490px;
+        left: 320px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .emailform {
+        width: 200px;
+        height: 40px;
+        border: none;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        text-align:center;
+        top: 540px;
+        left: 200px;
+        color: #00000088;
+    }
+
+    .submitbutton {
+        color: white;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 17px;
+        padding-left: 30px;
+        padding-top: 11px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #085078;
+        font-weight: bold;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 540px;
+        left: 420px;
+    }
+
+}
+
+@media only screen and (max-width:425px) {
+    
+    .title1 {
+        font-family: 'Segoe UI';
+        font-size: 25px;
+        position: absolute;
+        display: flex;
+        top: 150px;
+        left: 50px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .highlight1 {
+        font-family: 'Segoe UI';
+        font-size: 40px;
+        position: absolute;
+        display: flex;
+        color: #85D8CE;
+        top: 135px;
+        left: 120px;
+        letter-spacing: 2px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title2 {
+        font-family: 'Segoe UI';
+        font-size: 25px;
+        position: absolute;
+        display: flex;
+        top: 150px;
+        left: 320px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .highlight2 {
+        font-family: 'Segoe UI';
+        font-size: 45px;
+        position: absolute;
+        display: flex;
+        color: #85D8CE;
+        top: 200px;
+        left: 50px;
+        letter-spacing: 2px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title3 {
+        font-family: 'Segoe UI';
+        font-size: 30px;
+        position: absolute;
+        display: flex;
+        top: 213px;
+        left: 290px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title4 {
+        font-family: 'Segoe UI';
+        font-size: 35px;
+        position: absolute;
+        display: flex;
+        top: 270px;
+        left: 130px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title5 {
+        font-family: 'Segoe UI';
+        font-size: 22px;
+        position: absolute;
+        display: flex;
+        top: 340px;
+        left: 80px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title6 {
+        font-family: 'Segoe UI';
+        font-size: 15px;
+        position: absolute;
+        display: flex;
+        top: 400px;
+        left: 150px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .emailform {
+        width: 200px;
+        height: 40px;
+        border: none;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        text-align:center;
+        top: 450px;
+        left: 120px;
+        color: #00000088;
+    }
+
+    .submitbutton {
+        color: white;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 17px;
+        padding-left: 30px;
+        padding-top: 11px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #085078;
+        font-weight: bold;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 500px;
+        left: 145px;
+    }
+
+}
+
+
+@media only screen and (max-width:375px) {
+    
+    .title1 {
+        font-family: 'Segoe UI';
+        font-size: 25px;
+        position: absolute;
+        display: flex;
+        top: 150px;
+        left: 30px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .highlight1 {
+        font-family: 'Segoe UI';
+        font-size: 40px;
+        position: absolute;
+        display: flex;
+        color: #85D8CE;
+        top: 135px;
+        left: 100px;
+        letter-spacing: 2px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title2 {
+        font-family: 'Segoe UI';
+        font-size: 25px;
+        position: absolute;
+        display: flex;
+        top: 150px;
+        left: 300px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .highlight2 {
+        font-family: 'Segoe UI';
+        font-size: 45px;
+        position: absolute;
+        display: flex;
+        color: #85D8CE;
+        top: 200px;
+        left: 30px;
+        letter-spacing: 2px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title3 {
+        font-family: 'Segoe UI';
+        font-size: 30px;
+        position: absolute;
+        display: flex;
+        top: 213px;
+        left: 260px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title4 {
+        font-family: 'Segoe UI';
+        font-size: 35px;
+        position: absolute;
+        display: flex;
+        top: 270px;
+        left: 100px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title5 {
+        font-family: 'Segoe UI';
+        font-size: 22px;
+        position: absolute;
+        display: flex;
+        top: 340px;
+        left: 60px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title6 {
+        font-family: 'Segoe UI';
+        font-size: 15px;
+        position: absolute;
+        display: flex;
+        top: 400px;
+        left: 120px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .emailform {
+        width: 200px;
+        height: 40px;
+        border: none;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        text-align:center;
+        top: 450px;
+        left: 90px;
+        color: #00000088;
+    }
+
+    .submitbutton {
+        color: white;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 17px;
+        padding-left: 30px;
+        padding-top: 11px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #085078;
+        font-weight: bold;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 500px;
+        left: 115px;
+    }
+
+}
+
+
+@media only screen and (max-width:320px) {
+    
+    .title1 {
+        font-family: 'Segoe UI';
+        font-size: 20px;
+        position: absolute;
+        display: flex;
+        top: 150px;
+        left: 20px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .highlight1 {
+        font-family: 'Segoe UI';
+        font-size: 30px;
+        position: absolute;
+        display: flex;
+        color: #85D8CE;
+        top: 140px;
+        left: 80px;
+        letter-spacing: 2px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title2 {
+        font-family: 'Segoe UI';
+        font-size: 25px;
+        position: absolute;
+        display: flex;
+        top: 145px;
+        left: 240px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .highlight2 {
+        font-family: 'Segoe UI';
+        font-size: 45px;
+        position: absolute;
+        display: flex;
+        color: #85D8CE;
+        top: 200px;
+        left: 10px;
+        letter-spacing: 2px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title3 {
+        font-family: 'Segoe UI';
+        font-size: 20px;
+        position: absolute;
+        display: flex;
+        top: 225px;
+        left: 240px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title4 {
+        font-family: 'Segoe UI';
+        font-size: 30px;
+        position: absolute;
+        display: flex;
+        top: 270px;
+        left: 80px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title5 {
+        font-family: 'Segoe UI';
+        font-size: 17px;
+        position: absolute;
+        display: flex;
+        top: 340px;
+        left: 60px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+
+    .title6 {
+        font-family: 'Segoe UI';
+        font-size: 15px;
+        position: absolute;
+        display: flex;
+        top: 400px;
+        left: 90px;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .emailform {
+        width: 200px;
+        height: 40px;
+        border: none;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        text-align:center;
+        top: 450px;
+        left: 60px;
+        color: #00000088;
+    }
+
+    .submitbutton {
+        color: white;
+        height: 40px;
+        width: 150px;
+        border: none;
+        font-size: 17px;
+        padding-left: 30px;
+        padding-top: 11px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #085078;
+        font-weight: bold;
+        box-shadow: -5px 5px #0000001e;
+        position: absolute;
+        display: flex;
+        top: 500px;
+        left: 85px;
+    }
+
+}
+
+

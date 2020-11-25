@@ -1,0 +1,75 @@
+.border1 {
+    background-color: black;
+    width: 100vw;
+    height: 80px;
+    color: white;
+}
+
+.title-big1 {
+    font-family: 'Segoe UI';
+    font-size: 1.7vw;
+    padding-left: 300px;
+    
+}
+
+
+@media only screen and (min-width:1024px) {
+
+    .title-big1 {
+        font-family: 'Segoe UI';
+        font-size: 1.7vw;
+        padding-top: 25px;
+        padding-left: 400px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .title-big1 {
+        font-family: 'Segoe UI';
+        font-size: 1.7vw;
+        padding-top: 30px;
+        padding-left: 240px;
+    }
+    
+    
+}
+
+@media only screen and (max-width:425px) {
+
+    .title-big1 {
+        font-family: 'Segoe UI';
+        font-size: 3.0vw;
+        font-weight: bold;
+        padding-top: 35px;
+        padding-left: 65px;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width:375px) {
+
+    .title-big1 {
+        font-family: 'Segoe UI';
+        font-size: 3.0vw;
+        font-weight: bold;
+        padding-top: 35px;
+        padding-left: 65px;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width:320px) {
+
+    .title-big1 {
+        font-family: 'Segoe UI';
+        font-size: 3.0vw;
+        font-weight: bold;
+        padding-top: 35px;
+        padding-left: 50px;
+    }
+}

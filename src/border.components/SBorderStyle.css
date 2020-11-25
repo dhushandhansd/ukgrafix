@@ -1,0 +1,147 @@
+.border2 {
+    background-color: black;
+    width: 100vw;
+    height: 80px;
+    color: white;
+}
+
+.border2-titles1 {
+    font-family: 'Segeo UI';
+    font-size: 1.7vw;
+    padding-top: 30px;
+    padding-left: 250px;
+    float: left;
+}
+
+.coinimg {
+    width: 58px;
+    height: 60px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width:1024px) {
+    .border2 {
+        background-color: black;
+        width: 100vw;
+        height: 80px;
+        color: white;
+    }
+    
+    .border2-titles1 {
+        font-family: 'Segeo UI';
+        font-size: 1.7vw;
+        padding-top: 30px;
+        padding-left: 150px;
+        float: left;
+    }
+    
+    .coinimg {
+        width: 58px;
+        height: 60px;
+        float: left;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .border2 {
+        background-color: black;
+        width: 100vw;
+        height: 80px;
+        color: white;
+    }
+    
+    .border2-titles1 {
+        font-family: 'Segeo UI';
+        font-size: 1.7vw;
+        padding-top: 30px;
+        padding-left: 150px;
+        float: left;
+    }
+    
+    .coinimg {
+        width: 58px;
+        height: 60px;
+        float: left;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .border2 {
+        background-color: black;
+        width: 100vw;
+        height: 80px;
+        color: white;
+    }
+    
+    .border2-titles1 {
+        font-family: 'Segeo UI';
+        font-size: 2.0vw;
+        padding-top: 30px;
+        padding-left: 30px;
+        float: left;
+    }
+    
+    .coinimg {
+        width: 38px;
+        height: 40px;
+        float: left;
+        padding-top: 17px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .border2 {
+        background-color: black;
+        width: 100vw;
+        height: 80px;
+        color: white;
+    }
+    
+    .border2-titles1 {
+        font-family: 'Segeo UI';
+        font-size: 2.2vw;
+        padding-top: 30px;
+        padding-left: 10px;
+        float: left;
+    }
+    
+    .coinimg {
+        width: 38px;
+        height: 40px;
+        float: left;
+        padding-top: 17px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .border2 {
+        background-color: black;
+        width: 100vw;
+        height: 80px;
+        color: white;
+    }
+    
+    .border2-titles1 {
+        font-family: 'Segeo UI';
+        font-size: 2.3vw;
+        padding-top: 35px;
+        padding-left: 10px;
+        float: left;
+    }
+    
+    .coinimg {
+        width: 38px;
+        height: 40px;
+        float: left;
+        padding-top: 17px;
+        padding-left: 20px;
+    }
+}

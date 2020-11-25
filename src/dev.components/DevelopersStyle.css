@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dev-container {
+    width: 100vw;
+    height: 65vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: linear-gradient(-45deg,#085078,#85D8CE);
+    color: white;
+    font-family: 'Segoe UI';
+}
+
+.main-container {
+    padding: 100px 120px;
+}
+
+.container1 img {
+    width: 250px;
+    height: 250px;
+    margin-left: 25px;
+}
+
+.container1 h3 {
+    font-size: 1.2em;
+    margin-left: 45px;
+}
+
+.container1 h4 {
+    font-size: 1em;
+    margin-left: 75px;
+}
+
+.container1 {
+    width: 300px;
+    height: 300px;
+    padding-left: 100px;
+    display: inline-block;
+}
+
+.container2 img {
+    width: 250px;
+    height: 250px;
+    margin-left: 25px;
+}
+
+.container2 h3 {
+    font-size: 1.2em;
+    margin-left: 55px;
+}
+
+.container2 h4 {
+    font-size: 1em;
+    margin-left: 75px;
+}
+
+.container2 {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.container3 img {
+    width: 250px;
+    height: 250px;
+    margin-left: 25px;
+}
+
+.container3 h3 {
+    font-size: 1.2em;
+    margin-left: 90px;
+}
+
+.container3 h4 {
+    font-size: 1em;
+    margin-left: 75px;
+}
+
+.container3 {
+    width: 300px;
+    height: 300px;
+    padding-left: 100px;
+    display: inline-block;
+
+}
+
+@media only screen and (max-width:1024px) {
+    
+    .dev-container {
+        width: 100vw;
+        height: 90vh;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-image: linear-gradient(-45deg,#085078,#85D8CE);
+        color: white;
+        font-family: 'Segoe UI';
+    }
+
+    .main-container {
+        padding: 100px 160px;
+    }
+
+    .container1 img {
+        width: 250px;
+        height: 250px;
+        margin-left: 25px;
+    }
+
+    .container1 h3 {
+        font-size: 1.2em;
+        margin-left: 45px;
+    }
+
+    .container1 h4 {
+        font-size: 1em;
+        margin-left: 75px;
+    }
+
+    .container1 {
+        width: 300px;
+        height: 300px;
+        padding-left: 100px;
+        display: inline-block;
+    }
+
+    .container2 img {
+        width: 250px;
+        height: 250px;
+        margin-left: 25px;
+    }
+
+    .container2 h3 {
+        font-size: 1.2em;
+        margin-left: 55px;
+    }
+
+    .container2 h4 {
+        font-size: 1em;
+        margin-left: 75px;
+    }
+
+    .container2 {
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+    }
+
+    .container3 img {
+        width: 250px;
+        height: 250px;
+        margin-left: 25px;
+    }
+
+    .container3 h3 {
+        font-size: 1.2em;
+        margin-left: 90px;
+    }
+
+    .container3 h4 {
+        font-size: 1em;
+        margin-left: 75px;
+    }
+
+    .container3 {
+        width: 300px;
+        height: 300px;
+        padding-left: 200px;
+        display: inline-block;
+
+    }
+}
+
+@media only screen and (max-width:768px) {
+    
+    .dev-container {
+        width: 100vw;
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-image: linear-gradient(-45deg,#085078,#85D8CE);
+        color: white;
+        font-family: 'Segoe UI';
+    }
+
+    .main-container {
+        padding: 100px 65px;
+    }
+
+    .container1 img {
+        width: 250px;
+        height: 250px;
+        margin-left: 25px;
+    }
+
+    .container1 h3 {
+        font-size: 1.2em;
+        margin-left: 45px;
+    }
+
+    .container1 h4 {
+        font-size: 1em;
+        margin-left: 75px;
+    }
+
+    .container1 {
+        width: 300px;
+        height: 300px;
+        padding-left: 150px;
+        padding-top: 40px;
+        display: inline-block;
+    }
+
+    .container2 img {
+        width: 250px;
+        height: 250px;
+        margin-left: 25px;
+    }
+
+    .container2 h3 {
+        font-size: 1.2em;
+        margin-left: 55px;
+    }
+
+    .container2 h4 {
+        font-size: 1em;
+        margin-left: 75px;
+    }
+
+    .container2 {
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+    }
+
+    .container3 img {
+        width: 250px;
+        height: 250px;
+        margin-left: 25px;
+    }
+
+    .container3 h3 {
+        font-size: 1.2em;
+        margin-left: 90px;
+    }
+
+    .container3 h4 {
+        font-size: 1em;
+        margin-left: 75px;
+    }
+
+    .container3 {
+        width: 300px;
+        height: 300px;
+        padding-left:350px;
+        padding-top: 40px;
+        display: inline-block;
+
+    }
+}
+
+@media only screen and (max-width:425px) {
+    
+    .dev-container {
+        width: 100vw;
+        height: 120vh;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-image: linear-gradient(-45deg,#085078,#85D8CE);
+        color: white;
+        font-family: 'Segoe UI';
+    }
+
+    .main-container {
+        padding: 100px 110px;
+    }
+
+    .container1 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+    }
+
+    .container1 h3 {
+        font-size: 1.0em;
+        margin-left:15px;
+    }
+
+    .container1 h4 {
+        font-size: 0.7em;
+        margin-left: 55px;
+    }
+
+    .container1 {
+        width: 300px;
+        height: 300px;
+        padding-left: 0px;
+        padding-top: 0px;
+        display: inline-block;
+    }
+
+    .container2 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+    }
+
+    .container2 h3 {
+        font-size: 1.0em;
+        margin-left: 25px;
+    }
+
+    .container2 h4 {
+        font-size: 0.7em;
+        margin-left: 55px;
+    }
+
+    .container2 {
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+    }
+
+    .container3 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+    }
+
+    .container3 h3 {
+        font-size: 1.0em;
+        margin-left: 45px;
+    }
+
+    .container3 h4 {
+        font-size: 0.7em;
+        margin-left: 50px;
+    }
+
+    .container3 {
+        width: 300px;
+        height: 300px;
+        padding-left:0px;
+        display: inline-block;
+
+    }
+}
+
+@media only screen and (max-width:375px) {
+    
+    .dev-container {
+        width: 100vw;
+        height: 120vh;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-image: linear-gradient(-45deg,#085078,#85D8CE);
+        color: white;
+        font-family: 'Segoe UI';
+    }
+
+    .main-container {
+        padding: 100px 90px;
+    }
+
+    .container1 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+    }
+
+    .container1 h3 {
+        font-size: 1.0em;
+        margin-left:15px;
+    }
+
+    .container1 h4 {
+        font-size: 0.7em;
+        margin-left: 55px;
+    }
+
+    .container1 {
+        width: 300px;
+        height: 300px;
+        padding-left: 0px;
+        padding-top: 0px;
+        display: inline-block;
+    }
+
+    .container2 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+    }
+
+    .container2 h3 {
+        font-size: 1.0em;
+        margin-left: 25px;
+    }
+
+    .container2 h4 {
+        font-size: 0.7em;
+        margin-left: 55px;
+    }
+
+    .container2 {
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+    }
+
+    .container3 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+    }
+
+    .container3 h3 {
+        font-size: 1.0em;
+        margin-left: 45px;
+    }
+
+    .container3 h4 {
+        font-size: 0.7em;
+        margin-left: 50px;
+    }
+
+    .container3 {
+        width: 300px;
+        height: 300px;
+        padding-left:0px;
+        display: inline-block;
+
+    }
+}
+
+
+@media only screen and (max-width:320px) {
+    
+    .dev-container {
+        width: 100vw;
+        height: 120vh;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-image: linear-gradient(-45deg,#085078,#85D8CE);
+        color: white;
+        font-family: 'Segoe UI';
+    }
+
+    .main-container {
+        padding: 100px 55px;
+    }
+
+    .container1 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+    }
+
+    .container1 h3 {
+        font-size: 1.0em;
+        margin-left:15px;
+    }
+
+    .container1 h4 {
+        font-size: 0.7em;
+        margin-left: 55px;
+    }
+
+    .container1 {
+        width: 300px;
+        height: 300px;
+        padding-left: 0px;
+        padding-top: 0px;
+        display: inline-block;
+    }
+
+    .container2 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+    }
+
+    .container2 h3 {
+        font-size: 1.0em;
+        margin-left: 25px;
+    }
+
+    .container2 h4 {
+        font-size: 0.7em;
+        margin-left: 55px;
+    }
+
+    .container2 {
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+    }
+
+    .container3 img {
+        width: 150px;
+        height: 150px;
+        margin-left: 25px;
+    }
+
+    .container3 h3 {
+        font-size: 1.0em;
+        margin-left: 45px;
+    }
+
+    .container3 h4 {
+        font-size: 0.7em;
+        margin-left: 50px;
+    }
+
+    .container3 {
+        width: 300px;
+        height: 300px;
+        padding-left:0px;
+        display: inline-block;
+
+    }
+}

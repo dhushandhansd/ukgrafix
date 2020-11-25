@@ -1,0 +1,1308 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.Sbackground {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: linear-gradient(-45deg,#085078,#85D8CE);
+    color: white;
+}
+
+.web-ui1 {
+    padding-left: 50px;
+}
+
+
+.pagetitle {
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 100px;
+    font-size: 2.2vw;
+    text-shadow: -5px 5px #0000001e;
+}
+
+.web1 {
+    position: absolute;
+    display: flex;
+    width: 250px;
+    height: 120px;
+    margin-top: 150px;
+    margin-left: 0px;
+    box-shadow: -10px 10px #0000001e;
+}
+
+.web2 {
+    position: absolute;
+    display: flex;
+    width: 250px;
+    height: 120px;
+    margin-top: 190px;
+    margin-left: 90px;
+    box-shadow: -10px 10px #0000001e;
+}
+
+.web3 {
+    position: absolute;
+    display: flex;
+    width: 250px;
+    height: 120px;
+    margin-top: 250px;
+    margin-left: 175px;
+    box-shadow: -10px 10px #0000001e;
+}
+
+.web4 {
+    position: absolute;
+    display: flex;
+    width: 250px;
+    height: 120px;
+    margin-top: 310px;
+    margin-left: 270px;
+    box-shadow: -10px 10px #0000001e;
+}
+
+.bigTitle {
+    position: absolute;
+    display: flex;
+    font-family: 'Segoe UI';
+    font-size:2.5vw ;
+    margin-top:20px ;
+    margin-left: 900px;
+    color: #85D8CE;
+    text-shadow: -5px 5px #0000001e;
+}
+
+.bigTitle1 {
+    position: absolute;
+    display: flex;
+    font-family: 'Segoe UI';
+    font-size:2.0vw ;
+    margin-top:27px ;
+    margin-left: 1065px;
+}
+
+.bg1img {
+    display: flex;
+    float: right;
+    padding-right: 130px;
+    padding-top: 60px;
+    width: 150px;
+    height: 130px;
+}
+
+.bigTitle2 {
+    display: inline-flex;
+    float: right;
+    color: #85D8CE;
+    font-size:2.0vw ;
+    font-family: 'Segoe UI';
+    padding-top: 130px;
+    padding-right:0px ;
+    text-shadow: -5px 5px #0000001e;
+
+}
+.bigTitle3 {
+    display: inline-flex;
+    float: right;
+    color: white;
+    font-size:2.0vw ;
+    font-family: 'Segoe UI';
+    padding-top: 130px;
+    padding-right:10px ;
+    text-shadow: -5px 5px #0000001e;
+}
+
+.mob-container {
+    position: relative;
+    background-color: #00000091;
+    width: 600px;
+    height: 450px;
+    border:none;
+    border-radius: 20px;
+    left: 650px;
+    top: 200px;
+}
+
+.mob1,.mob2,.mob3,.mob5,.mob6,.mob7,.nextbtn {
+    position: absolute;
+    top: 25px;
+}
+
+.mob1 {
+    left: 30px;
+}
+
+.mob2 {
+    left: 170px;
+}
+
+.mob3 {
+    left: 330px;
+}
+
+.mob5 {
+    right: 10px;
+}
+
+.mob6 {
+    left: 32px;
+    top: 235px;
+}
+
+.mob7 {
+    top: 235px;
+    left: 170px;
+}
+
+.viewtxt {
+    font-family: 'Segoe UI';
+    position: absolute;
+    top: 320px;
+    left: 350px;
+}
+
+.nextbtn {
+    left: 450px;
+    top: 320px;
+}
+
+.follow-container {
+    position: relative;
+    top: 150px;
+    left: 30px;
+    font-family: 'Segoe UI';
+    height: 50px;
+}
+
+
+.instalogo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 30px;
+}
+
+@media only screen and (max-width:1178px) {
+    
+    .pagetitle {
+        font-weight: bold;
+        font-family: 'Segoe UI';
+        position: absolute;
+        padding-top: 80px;
+        padding-left: 20px;
+        font-size: 2.2vw;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .web-ui1 {
+        padding-left: 40px;
+    }
+
+    .web1 {
+        position: absolute;
+        display: flex;
+        width: 250px;
+        height: 120px;
+        margin-top: 150px;
+        margin-left: 0px;
+        box-shadow: -10px 10px #0000001e;
+    }
+    
+    .web2 {
+        position: absolute;
+        display: flex;
+        width: 250px;
+        height: 120px;
+        margin-top: 190px;
+        margin-left: 90px;
+        box-shadow: -10px 10px #0000001e;
+    }
+    
+    .web3 {
+        position: absolute;
+        display: flex;
+        width: 250px;
+        height: 120px;
+        margin-top: 250px;
+        margin-left: 175px;
+        box-shadow: -10px 10px #0000001e;
+    }
+    
+    .web4 {
+        position: absolute;
+        display: flex;
+        width: 250px;
+        height: 120px;
+        margin-top: 310px;
+        margin-left: 270px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .bigTitle {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.5vw ;
+        margin-top:20px ;
+        margin-left: 700px;
+        color: #85D8CE;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .bigTitle1 {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.0vw ;
+        margin-top:27px ;
+        margin-left: 830px;
+    }
+
+    .bg1img {
+        display: flex;
+        float: right;
+        padding-right: 80px;
+        padding-top: 60px;
+        width: 150px;
+        height: 130px;
+    }
+
+    .bigTitle2 {
+        display: inline-flex;
+        float: right;
+        color: #85D8CE;
+        font-size:2.0vw ;
+        font-family: 'Segoe UI';
+        padding-top: 130px;
+        padding-right:0px ;
+        text-shadow: -5px 5px #0000001e;
+
+    }
+    .bigTitle3 {
+        display: inline-flex;
+        float: right;
+        color: white;
+        font-size:2.0vw ;
+        font-family: 'Segoe UI';
+        padding-top: 130px;
+        padding-right:10px ;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .mob-container {
+        position: relative;
+        background-color: #00000091;
+        width: 400px;
+        height: 380px;
+        border:none;
+        border-radius: 20px;
+        left: 600px;
+        top: 200px;
+    }
+
+    .mob1,.mob2,.mob3,.mob5,.mob6,.mob7,.nextbtn {
+        position: absolute;
+        width: 80px;
+        height: 150px;
+        top: 25px;
+    }
+
+    .mob1 {
+        left: 30px;
+    }
+
+    .mob2 {
+        left: 120px;
+    }
+
+    .mob3 {
+        left: 220px;
+    }
+
+    .mob5 {
+        right: 10px;
+    }
+
+    .mob6 {
+        left: 32px;
+        top: 235px;
+    }
+
+    .mob7 {
+        top: 235px;
+        left: 130px;
+    }
+
+    .viewtxt {
+        font-family: 'Segoe UI';
+        position: absolute;
+        top: 320px;
+        left: 230px;
+    }
+
+    .nextbtn {
+        width: 30px;
+        height: 30px;
+        left: 330px;
+        top: 315px;
+    }
+
+    .follow-container {
+        position: relative;
+        top: 150px;
+        left: 30px;
+        font-family: 'Segoe UI';
+        height: 50px;
+    }
+
+
+    .instalogo {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 30px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    
+    .pagetitle {
+        font-weight: bold;
+        font-family: 'Segoe UI';
+        position: absolute;
+        padding-top: 80px;
+        padding-left: 20px;
+        font-size: 2.2vw;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .web-ui1 {
+        padding-left: 40px;
+    }
+
+    .web1 {
+        position: absolute;
+        display: flex;
+        width: 250px;
+        height: 120px;
+        margin-top: 150px;
+        margin-left: 0px;
+        box-shadow: -10px 10px #0000001e;
+    }
+    
+    .web2 {
+        position: absolute;
+        display: flex;
+        width: 250px;
+        height: 120px;
+        margin-top: 190px;
+        margin-left: 90px;
+        box-shadow: -10px 10px #0000001e;
+    }
+    
+    .web3 {
+        position: absolute;
+        display: flex;
+        width: 250px;
+        height: 120px;
+        margin-top: 250px;
+        margin-left: 175px;
+        box-shadow: -10px 10px #0000001e;
+    }
+    
+    .web4 {
+        position: absolute;
+        display: flex;
+        width: 250px;
+        height: 120px;
+        margin-top: 310px;
+        margin-left: 270px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .bigTitle {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.5vw ;
+        margin-top:20px ;
+        margin-left: 700px;
+        color: #85D8CE;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .bigTitle1 {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.0vw ;
+        margin-top:27px ;
+        margin-left: 830px;
+    }
+
+    .bg1img {
+        display: flex;
+        float: right;
+        padding-right: 80px;
+        padding-top: 60px;
+        width: 150px;
+        height: 130px;
+    }
+
+    .bigTitle2 {
+        display: inline-flex;
+        float: right;
+        color: #85D8CE;
+        font-size:2.0vw ;
+        font-family: 'Segoe UI';
+        padding-top: 130px;
+        padding-right:0px ;
+        text-shadow: -5px 5px #0000001e;
+
+    }
+    .bigTitle3 {
+        display: inline-flex;
+        float: right;
+        color: white;
+        font-size:2.0vw ;
+        font-family: 'Segoe UI';
+        padding-top: 130px;
+        padding-right:10px ;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .mob-container {
+        position: relative;
+        background-color: #00000091;
+        width: 400px;
+        height: 380px;
+        border:none;
+        border-radius: 20px;
+        left: 600px;
+        top: 200px;
+    }
+
+    .mob1,.mob2,.mob3,.mob5,.mob6,.mob7,.nextbtn {
+        position: absolute;
+        width: 80px;
+        height: 150px;
+        top: 25px;
+    }
+
+    .mob1 {
+        left: 30px;
+    }
+
+    .mob2 {
+        left: 120px;
+    }
+
+    .mob3 {
+        left: 220px;
+    }
+
+    .mob5 {
+        right: 10px;
+    }
+
+    .mob6 {
+        left: 32px;
+        top: 235px;
+    }
+
+    .mob7 {
+        top: 235px;
+        left: 130px;
+    }
+
+    .viewtxt {
+        font-family: 'Segoe UI';
+        position: absolute;
+        top: 320px;
+        left: 230px;
+    }
+
+    .nextbtn {
+        width: 30px;
+        height: 30px;
+        left: 330px;
+        top: 315px;
+    }
+
+    .follow-container {
+        position: relative;
+        top: 150px;
+        left: 30px;
+        font-family: 'Segoe UI';
+        height: 50px;
+    }
+
+
+    .instalogo {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 30px;
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+    
+    .pagetitle {
+        font-weight: bold;
+        font-family: 'Segoe UI';
+        position: absolute;
+        padding-top: 80px;
+        padding-left: 20px;
+        font-size: 2.2vw;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .web-ui1 {
+        padding-left: 20px;
+    }
+
+    .web1 {
+        position: absolute;
+        display: flex;
+        width: 150px;
+        height: 90px;
+        margin-top: 150px;
+        margin-left: 0px;
+        box-shadow: -10px 10px #0000001e;
+    }
+    
+    .web2 {
+        position: absolute;
+        display: flex;
+        width: 150px;
+        height: 90px;
+        margin-top: 245px;
+        margin-left: 155px;
+        box-shadow: -10px 10px #0000001e;
+    }
+    
+    .web3 {
+        position: absolute;
+        display: flex;
+        width: 150px;
+        height: 90px;
+        margin-top: 340px;
+        margin-left: 0px;
+        box-shadow: -10px 10px #0000001e;
+    }
+    
+    .web4 {
+        position: absolute;
+        display: flex;
+        width: 150px;
+        height: 90px;
+        margin-top: 430px;
+        margin-left: 155px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .bigTitle {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.5vw ;
+        margin-top:20px ;
+        margin-left: 500px;
+        color: #85D8CE;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .bigTitle1 {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.0vw ;
+        margin-top:25px ;
+        margin-left: 600px;
+    }
+
+    .bg1img {
+        display: flex;
+        float: right;
+        padding-right: 80px;
+        padding-top: 40px;
+        width: 150px;
+        height: 130px;
+    }
+
+    .bigTitle2 {
+        display: inline-flex;
+        float: right;
+        color: #85D8CE;
+        font-size:2.0vw ;
+        font-family: 'Segoe UI';
+        padding-top: 130px;
+        padding-right:0px ;
+        text-shadow: -5px 5px #0000001e;
+
+    }
+    .bigTitle3 {
+        display: inline-flex;
+        float: right;
+        color: white;
+        font-size:2.0vw ;
+        font-family: 'Segoe UI';
+        padding-top: 130px;
+        padding-right:10px ;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .mob-container {
+        position: relative;
+        background-color: #00000091;
+        width: 400px;
+        height: 380px;
+        border:none;
+        border-radius: 20px;
+        left: 340px;
+        top: 200px;
+    }
+
+    .mob1,.mob2,.mob3,.mob5,.mob6,.mob7,.nextbtn {
+        position: absolute;
+        width: 80px;
+        height: 150px;
+        top: 25px;
+    }
+
+    .mob1 {
+        left: 30px;
+    }
+
+    .mob2 {
+        left: 120px;
+    }
+
+    .mob3 {
+        left: 220px;
+    }
+
+    .mob5 {
+        right: 10px;
+    }
+
+    .mob6 {
+        left: 32px;
+        top: 235px;
+    }
+
+    .mob7 {
+        top: 235px;
+        left: 130px;
+    }
+
+    .viewtxt {
+        font-family: 'Segoe UI';
+        position: absolute;
+        top: 320px;
+        left: 230px;
+    }
+
+    .nextbtn {
+        width: 30px;
+        height: 30px;
+        left: 330px;
+        top: 315px;
+    }
+
+    .follow-container {
+        position: relative;
+        top: 220px;
+        left: 255px;
+        font-family: 'Segoe UI';
+        height: 50px;
+    }
+
+
+    .instalogo {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 30px;
+        left: 100px;
+    }
+}
+
+
+@media only screen and (max-width:425px) {
+    
+    .pagetitle {
+        font-weight: bold;
+        font-family: 'Segoe UI';
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 20px;
+        font-size: 3.5vw;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .web1 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 150px;
+        margin-left: 20px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .web2 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 190px;
+        margin-left: 70px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .web3 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 230px;
+        margin-left: 120px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .web4 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 270px;
+        margin-left:180px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .bigTitle {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.5vw ;
+        margin-top:20px ;
+        margin-left: 200px;
+        color: #85D8CE;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .bigTitle1 {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.0vw ;
+        margin-top:20px ;
+        margin-left: 260px;
+    }
+
+    .bg1img {
+        display: flex;
+        float: right;
+        padding-right: 80px;
+        padding-top: 30px;
+        width: 150px;
+        height: 130px;
+    }
+
+    .bigTitle2 {
+        display: inline-flex;
+        float: right;
+        color: #85D8CE;
+        font-size:3.5vw ;
+        font-family: 'Segoe UI';
+        padding-top: 300px;
+        padding-right:80px ;
+        text-shadow: -5px 5px #0000001e;
+
+    }
+    .bigTitle3 {
+        display: inline-flex;
+        float: right;
+        color: white;
+        font-size:2.5vw ;
+        font-family: 'Segoe UI';
+        padding-top: 305px;
+        padding-right:5px ;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .mob-container {
+        position: relative;
+        background-color: #00000091;
+        width: 400px;
+        height: 240px;
+        border:none;
+        border-radius: 20px;
+        left: 12px;
+        top: 330px;
+    }
+
+    .mob1,.mob2,.mob3,.mob5,.mob6,.mob7,.nextbtn {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        top: 25px;
+    }
+
+    .mob1 {
+        left: 30px;
+    }
+
+    .mob2 {
+        left: 140px;
+    }
+
+    .mob3 {
+        left: 220px;
+    }
+
+    .mob5 {
+        right: 30px;
+    }
+
+    .mob6 {
+        left: 140px;
+        top: 135px;
+    }
+
+    .mob7 {
+        top: 135px;
+        left: 220px;
+    }
+
+    .viewtxt {
+        font-family: 'Segoe UI';
+        position: absolute;
+        font-size: 12px;
+        top: 165px;
+        left: 275px;
+    }
+
+    .nextbtn {
+        width: 30px;
+        height: 30px;
+        left: 350px;
+        top: 158px;
+    }
+
+    .follow-container {
+        position: relative;
+        top: 200px;
+        left: 30px;
+        font-family: 'Segoe UI';
+        height: 50px;
+        width: 100px;
+    }
+
+    .follow-container h3 {
+        position: absolute;
+        top:135px;
+        left:20px;
+        font-size:11px;
+    }
+
+
+    .instalogo {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 100px;
+        top: 140px;
+    }
+}
+
+
+@media only screen and (max-width:375px) {
+    
+    .pagetitle {
+        font-weight: bold;
+        font-family: 'Segoe UI';
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 20px;
+        font-size: 3.5vw;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .web1 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 150px;
+        margin-left: 20px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .web2 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 190px;
+        margin-left: 70px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .web3 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 230px;
+        margin-left: 120px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .web4 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 270px;
+        margin-left:180px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .bigTitle {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.5vw ;
+        margin-top:20px ;
+        margin-left: 200px;
+        color: #85D8CE;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .bigTitle1 {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.0vw ;
+        margin-top:20px ;
+        margin-left: 260px;
+    }
+
+    .bg1img {
+        display: flex;
+        float: right;
+        padding-right: 80px;
+        padding-top: 30px;
+        width: 150px;
+        height: 130px;
+    }
+
+    .bigTitle2 {
+        display: inline-flex;
+        float: right;
+        color: #85D8CE;
+        font-size:3.5vw ;
+        font-family: 'Segoe UI';
+        padding-top: 300px;
+        padding-right:80px ;
+        text-shadow: -5px 5px #0000001e;
+
+    }
+    .bigTitle3 {
+        display: none;
+        float: right;
+        color: white;
+        font-size:2.5vw ;
+        font-family: 'Segoe UI';
+        padding-top: 305px;
+        padding-right:5px ;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .mob-container {
+        position: relative;
+        background-color: #00000091;
+        width: 350px;
+        height: 240px;
+        border:none;
+        border-radius: 20px;
+        left: 12px;
+        top: 330px;
+    }
+
+    .mob1,.mob2,.mob3,.mob5,.mob6,.mob7,.nextbtn {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        top: 25px;
+    }
+
+    .mob1 {
+        left: 30px;
+    }
+
+    .mob2 {
+        left: 110px;
+    }
+
+    .mob3 {
+        left: 200px;
+    }
+
+    .mob5 {
+        right: 30px;
+    }
+
+    .mob6 {
+        left: 70px;
+        top: 135px;
+    }
+
+    .mob7 {
+        top: 135px;
+        left: 160px;
+    }
+
+    .viewtxt {
+        font-family: 'Segoe UI';
+        position: absolute;
+        font-size: 12px;
+        top: 165px;
+        left: 225px;
+    }
+
+    .nextbtn {
+        width: 30px;
+        height: 30px;
+        left: 300px;
+        top: 158px;
+    }
+
+    .follow-container {
+        position: relative;
+        top: 200px;
+        left: 130px;
+        font-family: 'Segoe UI';
+        height: 50px;
+        width: 100px;
+    }
+
+    .follow-container h3 {
+        position: absolute;
+        top:135px;
+        left:20px;
+        font-size:11px;
+    }
+
+
+    .instalogo {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 100px;
+        top: 140px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    
+    .pagetitle {
+        font-weight: bold;
+        font-family: 'Segoe UI';
+        position: absolute;
+        padding-top: 120px;
+        padding-left: 20px;
+        font-size: 3.5vw;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .web-ui1 {
+        padding-left: 20px;
+    }
+
+    .web1 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 150px;
+        margin-left: 20px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .web2 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 190px;
+        margin-left: 70px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .web3 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 230px;
+        margin-left: 120px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .web4 {
+        position: absolute;
+        display: flex;
+        width: 90px;
+        height: 40px;
+        margin-top: 270px;
+        margin-left:180px;
+        box-shadow: -10px 10px #0000001e;
+    }
+
+    .bigTitle {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.5vw ;
+        margin-top:20px ;
+        margin-left: 130px;
+        color: #85D8CE;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .bigTitle1 {
+        position: absolute;
+        display: flex;
+        font-family: 'Segoe UI';
+        font-size:2.0vw ;
+        margin-top:22px ;
+        margin-left: 170px;
+    }
+
+    .bg1img {
+        display: flex;
+        float: right;
+        padding-right: 80px;
+        padding-top: 30px;
+        width: 150px;
+        height: 130px;
+    }
+
+    .bigTitle2 {
+        display: inline-flex;
+        float: right;
+        color: #85D8CE;
+        font-size:3.5vw ;
+        font-family: 'Segoe UI';
+        padding-top: 300px;
+        padding-right:80px ;
+        text-shadow: -5px 5px #0000001e;
+
+    }
+    .bigTitle3 {
+        display: none;
+        float: right;
+        color: white;
+        font-size:2.5vw ;
+        font-family: 'Segoe UI';
+        padding-top: 305px;
+        padding-right:5px ;
+        text-shadow: -5px 5px #0000001e;
+    }
+
+    .mob-container {
+        position: relative;
+        background-color: #00000091;
+        width: 295px;
+        height: 240px;
+        border:none;
+        border-radius: 20px;
+        left: 12px;
+        top: 330px;
+    }
+
+    .mob1,.mob2,.mob3,.mob5,.mob6,.mob7,.nextbtn {
+        position: absolute;
+        width: 40px;
+        height: 90px;
+        top: 25px;
+    }
+
+    .mob1 {
+        left: 30px;
+    }
+
+    .mob2 {
+        left: 100px;
+    }
+
+    .mob3 {
+        left: 160px;
+    }
+
+    .mob5 {
+        right: 30px;
+    }
+
+    .mob6 {
+        left: 60px;
+        top: 135px;
+    }
+
+    .mob7 {
+        top: 135px;
+        left: 130px;
+    }
+
+    .viewtxt {
+        font-family: 'Segoe UI';
+        position: absolute;
+        font-size: 12px;
+        top: 165px;
+        left: 180px;
+    }
+
+    .nextbtn {
+        width: 30px;
+        height: 30px;
+        left: 200px;
+        top: 190px;
+    }
+
+    .follow-container {
+        position: relative;
+        top: 200px;
+        left: 100px;
+        font-family: 'Segoe UI';
+        height: 50px;
+        width: 100px;
+    }
+
+    .follow-container h3 {
+        position: absolute;
+        top:135px;
+        left:20px;
+        font-size:11px;
+    }
+
+
+    .instalogo {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 100px;
+        top: 140px;
+    }
+}
